@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Archivos fuente de comercio exterior. Mantener fuera de GitHub publico.
+*.xlsx
+*.xls
+
+# Datos procesados y reportes: contienen valores y volumenes comerciales.
+data/processed/
+reports/
+
+# Local/editor
+.env
+.idea/
+.vscode/
